@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    {{>navbar}}
+    <div id="login-box">
+        <div class="left">
+            <h1>Sign up</h1>
+            <form action="/register" method="post">
+                <div>
+                    <input type="text" name="name" placeholder="Username" />
+                </div>
+                <div>
+                    <input type="text" name="email" placeholder="E-mail" />
+                </div>
+                <div>
+                    <label for="gender">gender <br></label>
+                    M<input type="radio" name="gender" id="gender" value="M">
+                    F<input type="radio" name="gender" id="gender" value="F">
+                </div>
+                <div>
+                    <input type="number" name="phone" placeholder="phone number" />
+                </div>
+                <div>
+                    <input type="number" name="age" id="age" value="age" placeholder="enter your age">
+                </div>
+                <div>
+                    <input type="password" name="password" placeholder="Password" />
+                </div>
+                <div>
+                    <input type="password" name="confirmpassword" placeholder="Retype password" />
+                </div>
+
+                <button type="submit" id="btn">submit now</button>
+            </form>
+            <div id="signinlink">
+                <a href="/signin">signin</a>
+            </div>
+        </div>
+        <div class="right">
+            <span class="loginwith">Sign in with<br />social network</span>
+
+            <button class="social-signin facebook">Log in with facebook</button>
+            <button class="social-signin twitter">Log in with Twitter</button>
+            <button class="social-signin google">Log in with Google+</button>
+        </div>
+        <div class="or">OR</div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

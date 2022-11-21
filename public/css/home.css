@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background-color: #DDD;
+  }
+/* top container start */
+#topcn{
+  height: 100%;
+}
+#topcnrow{
+  margin-right: 0px;
+}
+#topcnfdiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#topcnfdiv img{
+  width: 75%;
+}
+#topcnsdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+#topcnsdiv span{
+  width: 6px;
+  height: 100px;
+  background-color:aquamarine;
+}
+/* top container end  */
+
+/* container-2 start */
+#cn-2{
+  height: 100%;
+  background-color: #DDD;
+}
+#cn-2-row{
+  margin-right: 0px;
+}
+#cn-2-fdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#cn-2-sdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#cn-2-sdiv img{
+  width: 250px;
+  height: 80%;
+}
+/* end of second container */
+
+#cn-3{
+   height: 85vh;
+   background-color: black;
+}
+#cn-3-row{
+  margin-right: 0px;
+}
+#cn-3-fdiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#cn-3-fdiv div{
+  padding: 0px;
+}
+#cn-3-fdiv img{
+  width: 100%;
+  height: 100%;
+}
+#cn-3-fdiv h1,
+#cn-3-fdiv p,
+#cn-3-fdiv > div{
+  padding-left: 65px;
+  color: white;
+}
+#cn-3-sdiv{
+  background-color: #ccffee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#cn-3-sdiv div{
+  padding: 0px;
+}
+#cn-3-sdiv img{
+  width: 100%;
+  height: 100%;
+}
+#cn-3-sdiv h1,
+#cn-3-sdiv p,
+#cn-3-sdiv > div{
+  padding-right: 65px;
+  color: #02008d;
+}
+/* end  */
